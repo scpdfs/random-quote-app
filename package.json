@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/server.js",
-    "scripts": {
+  "scripts": {
     "start": "ts-node src/server.ts",
     "dev": "nodemon src/server.ts",
     "build": "tsc",
@@ -28,7 +28,9 @@
     "mongoose": "^8.17.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10",
     "@types/node": "^24.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
